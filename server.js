@@ -1,6 +1,28 @@
 //management of incoming requests with Express
 const express = require('express');
 
+//Use chalk to add colours on the console
+const chalk = require('chalk');
+
+//to access form data
+let bodyParser = require('body-parser');
+
+//The 404 middleware used when an incoming request
+//hits a wrong route
+const http404 = require('./middleware/route404');
+
+//Access the path 
+const path = require('path');
+
+//Used for logging
+const morgan = require("morgan");
+
+//Add more logging
+const {loggers, transports, format} = require("winston");
+
+//Accessing MongoDB
+const mongoose = require('mongoose');
+
 //create app
 const app = express();
 
