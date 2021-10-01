@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Node.js backend for eCom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Todo"
+  ],
+  "author": "Randriamahefa Christelle et Hassani Yawoumihani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  }
+}
