@@ -1,0 +1,82 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Add a shop
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+  <ion-item>
+    <ion-label position="floating">Name</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-list-header>
+    <ion-label>
+      Number of shops
+    </ion-label>
+  </ion-list-header>
+<!-- Number type input -->
+<ion-input type="number" value="1"></ion-input>
+
+<!-- Inputs with labels -->
+<ion-list>
+  
+
+  <ion-item>
+    
+    <ion-label>Product categories</ion-label>
+    <ion-select multiple="true" cancelText="Cancel" okText="Confirm">
+      <ion-select-option value="accessories">Accessories</ion-select-option>
+      <ion-select-option value="fashion">Fashion</ion-select-option>
+      <ion-select-option value="home">Home</ion-select-option>
+      <ion-select-option value="tech">Tech</ion-select-option>
+      <ion-select-option value="exterior">Exterior</ion-select-option>
+      <ion-select-option value="bags&luggage">Bags & Luggage</ion-select-option>
+      <ion-select-option value="lifestyle&entertainment">Lifestyle & Entertainment</ion-select-option>
+      <ion-select-option value="groceries">Groceries</ion-select-option>
+      <ion-select-option value="health&beauty">Health & Beauty</ion-select-option>
+      <ion-select-option value="sports">Sports</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    
+    <ion-label>Shop locations</ion-label>
+    <ion-select multiple="true" cancelText="Cancel" okText="Confirm">
+      <ion-select-option value="pringy">Annecy - Pringy</ion-select-option>
+      <ion-select-option value="seynod">Annecy - Seynod</ion-select-option>
+      <ion-select-option value="cran-gevrier">Annecy - Cran Gevrier</ion-select-option>
+      <ion-select-option value="epagny">Annecy - Epagny</ion-select-option>
+      <ion-select-option value="cruseilles">Cruseilles</ion-select-option>
+      <ion-select-option value="cluses">Cluses</ion-select-option>
+      <ion-select-option value="saint-julien">Saint-Julien-en-Genevois</ion-select-option>
+      <ion-select-option value="megeve">Megève</ion-select-option>
+      <ion-select-option value="sevrier">Sévrier</ion-select-option>
+      <ion-select-option value="saint-jorioz">Saint-Jorioz</ion-select-option>
+      <ion-select-option value="rumilly">Rumilly</ion-select-option>
+      <ion-select-option value="evian">Evian-Les-Bains</ion-select-option>
+      <ion-select-option value="annemasse">Annemasse</ion-select-option>
+     </ion-select>
+  </ion-item>
+
+  </ion-list>
+
+  <!-- Textarea in an item with a floating label -->
+<ion-item>
+  <ion-label position="floating">Description</ion-label>
+  <ion-textarea></ion-textarea>
+</ion-item>
+
+  <ion-button color="success">Add shop</ion-button>
+
+</ion-card>
+</ion-content>
