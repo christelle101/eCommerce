@@ -1,0 +1,13 @@
+Wed, 22 Sep 2021 14:16:46 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Wed, 22 Sep 2021 14:40:10 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Thu, 23 Sep 2021 06:38:57 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Thu, 23 Sep 2021 06:38:57 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/favicon.ico
+Thu, 23 Sep 2021 06:39:00 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Thu, 23 Sep 2021 06:42:13 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Thu, 23 Sep 2021 06:42:15 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Thu, 23 Sep 2021 07:04:48 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Fri, 01 Oct 2021 14:33:27 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Fri, 01 Oct 2021 14:33:27 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/favicon.ico
+Fri, 01 Oct 2021 14:35:08 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Mon, 22 Nov 2021 20:05:39 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/
+Mon, 22 Nov 2021 20:05:39 GMT | ERROR  | HTTP 404: ask for:  http://localhost:3000/favicon.ico
